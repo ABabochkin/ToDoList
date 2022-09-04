@@ -1,0 +1,56 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.inp {
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.btn-1 {
+    width: 100px;
+    height: 43px;
+    cursor: pointer;
+    font-family: 'Comfortaa';
+    color: #000000;
+    border-radius: 0px;
+    border: 1px ridge #000000;
+    background: #ffffff;
+} 
+
+.btn-1:hover {
+    color: #000000;
+    background: #cdcdcd;
+}
+
+
+.todo-task {
+    width: 400px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.todo-remove {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+.t-1 {
+    margin-left: 5px;
+}
